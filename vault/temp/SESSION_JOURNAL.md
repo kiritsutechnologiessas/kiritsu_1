@@ -3026,3 +3026,417 @@
 - url: http://localhost:3000/tienda/portatiles
 - via: pushState
 
+## 2026-07-28 18:59:29.604Z load
+- url: http://localhost:3000/
+
+## 2026-07-28 18:59:29.743Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-07-28 18:59:31.858Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"E-commerce"}
+
+## 2026-07-28 18:59:33.692Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Portátil"}
+
+## 2026-07-28 18:59:33.692Z navigate
+- url: http://localhost:3000/tienda/portatiles
+- via: pushState
+
+## 2026-07-28 18:59:46.004Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"E-commerce"}
+
+## 2026-07-28 19:00:11.821Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Nuevo$2,687,913.00Dell Pro 15 Essential PV15250 - Intel i5, 8 GB DDR5, 512 GBComputadora Portátil de alto rendimiento para profesionales Agregar al carrito"}
+
+## 2026-07-28 19:00:11.821Z navigate
+- url: http://localhost:3000/product/local_dell_pro_15_essential
+- via: pushState
+
+## 2026-07-28 19:00:13.647Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Computadora Portátil; Factor de forma: Concha; Familia de procesador: Intel® Core™ i5; Modelo del procesador: i5-1334U; Diagonal de la pantalla: 39,6 cm (15.6\"); Tipo HD: Full HD; Resolución de la pantalla: 1920 x 1080 Pixeles; Memoria interna: 8 GB DDR5-SDRAM (1 x 8 GB); Memoria máxima: 16 GB; Rango de transferencia de datos: 4400 MT/s; Capacidad total de almacenaje: 512 GB; Unidad de almacenamiento: SSD M.2 NVMe PCI Express 4.0; Tipo de memoria SSD: QLC; Clase de rendimiento de la SSD: 25; Modelo de gráficos en tarjeta: Intel® UHD Graphics; Conectividad: Wi-Fi, Bluetooth; Extras: Lector de tarjeta integrado (SD, SDHC, SDXC); Sistema operativo instalado: Windows 11 Pro 64-bit; Color del producto: Platino, Plata; Peso: 1,9 kg; Garantía 1 años básica"}
+
+## 2026-07-28 19:00:15.658Z click
+- element: {"tag":"h1","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Dell Pro 15 Essential PV15250 - Intel i5, 8 GB DDR5, 512 GB"}
+
+## 2026-07-28 19:01:00.948Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Back to Store"}
+
+## 2026-07-28 19:01:00.949Z navigate
+- url: http://localhost:3000/tienda
+- via: pushState
+
+## 2026-07-28 19:01:02.776Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Computador"}
+
+## 2026-07-28 19:01:02.777Z navigate
+- url: http://localhost:3000/categoria/computador
+- via: pushState
+
+## 2026-07-28 19:01:04.787Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"E-commerce"}
+
+## 2026-07-28 19:01:05.647Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Portátil"}
+
+## 2026-07-28 19:01:05.648Z navigate
+- url: http://localhost:3000/tienda/portatiles
+- via: pushState
+
+## 2026-07-28 19:06:12.639Z window.error
+- message: Uncaught TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- source: http://localhost:3000/src/components/Navbar.jsx?t=1785264232089
+- line: 37
+- col: 5
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785264232089:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3739:39)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19818:15)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+
+## 2026-07-28 19:06:12.659Z window.error
+- message: Uncaught TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- source: http://localhost:3000/src/components/Navbar.jsx?t=1785264232089
+- line: 37
+- col: 5
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785264232089:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3739:39)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19818:15)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+
+## 2026-07-28 19:06:12.666Z console.error
+- text: 
+    The above error occurred in the <Navbar> component:
+    
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785264232089:33:3)
+        at div
+        at Layout (http://localhost:3000/src/components/Layout.jsx?t=1785264232089:10:39)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:10816:3)
+        at CartProvider (http://localhost:3000/src/hooks/useCart.jsx?t=1785265572334:12:32)
+        at AuthProvider (http://localhost:3000/src/contexts/AuthContext.jsx:11:32)
+        at App
+    
+    Consider adding an error boundary to your tree to customize error handling behavior.
+    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+## 2026-07-28 19:06:12.670Z unhandledrejection
+- message: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785264232089:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19806:22)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19169:15)
+        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:18786:28)
+        at performSyncWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:18932:28)
+
+## 2026-07-28 19:06:12.647Z window.error
+- message: Uncaught TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- source: http://localhost:3000/src/components/Navbar.jsx?t=1785264232089
+- line: 37
+- col: 5
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785264232089:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3739:39)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19818:15)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+
+## 2026-07-28 19:06:12.674Z window.error
+- message: Uncaught TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- source: http://localhost:3000/src/components/Navbar.jsx?t=1785264232089
+- line: 37
+- col: 5
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785264232089:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3739:39)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19818:15)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+
+## 2026-07-28 19:06:12.682Z console.error
+- text: 
+    The above error occurred in the <Navbar> component:
+    
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785264232089:33:3)
+        at div
+        at Layout (http://localhost:3000/src/components/Layout.jsx?t=1785264232089:10:39)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:10816:3)
+        at CartProvider (http://localhost:3000/src/hooks/useCart.jsx?t=1785265572334:12:32)
+        at AuthProvider (http://localhost:3000/src/contexts/AuthContext.jsx:11:32)
+        at App
+    
+    Consider adding an error boundary to your tree to customize error handling behavior.
+    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+## 2026-07-28 19:06:12.686Z unhandledrejection
+- message: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785264232089:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19806:22)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19169:15)
+        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:18786:28)
+        at performSyncWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:18932:28)
+
+## 2026-07-28 19:06:12.619Z window.error
+- message: Uncaught TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- source: http://localhost:3000/src/components/Navbar.jsx?t=1785264232089
+- line: 37
+- col: 5
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785264232089:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3739:39)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19818:15)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+
+## 2026-07-28 19:06:12.656Z window.error
+- message: Uncaught TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- source: http://localhost:3000/src/components/Navbar.jsx?t=1785264232089
+- line: 37
+- col: 5
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785264232089:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3739:39)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19818:15)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+
+## 2026-07-28 19:06:12.664Z console.error
+- text: 
+    The above error occurred in the <Navbar> component:
+    
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785264232089:33:3)
+        at div
+        at Layout (http://localhost:3000/src/components/Layout.jsx?t=1785264232089:10:39)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:10816:3)
+        at CartProvider (http://localhost:3000/src/hooks/useCart.jsx?t=1785265572334:12:32)
+        at AuthProvider (http://localhost:3000/src/contexts/AuthContext.jsx:11:32)
+        at App
+    
+    Consider adding an error boundary to your tree to customize error handling behavior.
+    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+## 2026-07-28 19:06:12.668Z unhandledrejection
+- message: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785264232089:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19806:22)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19169:15)
+        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:18786:28)
+        at performSyncWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:18932:28)
+
+## 2026-07-28 19:07:37.243Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"E-commerce"}
+
+## 2026-07-28 19:07:38.635Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Portátil"}
+
+## 2026-07-28 19:07:38.636Z navigate
+- url: http://localhost:3000/tienda/portatiles
+- via: replaceState
+
+## 2026-07-28 19:07:45.118Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:07:45.759Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:07:47.408Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:07:47.814Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:07:48.869Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:07:49.782Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:07:50.631Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:07:51.143Z click
+- element: {"tag":"label","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"AMD Ryzen 9"}
+
+## 2026-07-28 19:07:51.143Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:07:52.991Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:07:53.864Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:07:54.716Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:07:55.669Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:07:56.714Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:07:57.417Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:07:58.185Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:07:58.570Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:07:59.338Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:07:59.722Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:08:01.392Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:08:02.046Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:08:02.679Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:08:03.270Z click
+- element: {"tag":"label","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"512 GB"}
+
+## 2026-07-28 19:08:03.270Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:08:03.896Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:08:04.358Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:08:05.027Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:08:05.491Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:10:52.617Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Nuevo$2,883,841.00Portátil ASUS Vivobook 16 M1605NAQ-MB101 AMD Ryzen 7, 16 GB, 512 GBPortátil de alto rendimiento con pantalla de 16 pulgadas Agregar al carrito"}
+
+## 2026-07-28 19:10:52.617Z navigate
+- url: http://localhost:3000/product/local_asus_vivobook_16_m1605naq_mb101
+- via: pushState
+
+## 2026-07-28 19:11:07.471Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Next image","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:11:08.316Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Next image","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:11:08.927Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Next image","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:11:09.617Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Next image","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:11:10.009Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Next image","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:11:10.621Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Next image","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:11:18.511Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Back to Store"}
+
+## 2026-07-28 19:11:18.512Z navigate
+- url: http://localhost:3000/tienda
+- via: pushState
+
+## 2026-07-28 19:13:53.877Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"CO$8999000.00Auditoría de Ciberseguridad y Ethical HackingCheck out this amazing product! Add to Cart"}
+
+## 2026-07-28 19:13:53.877Z navigate
+- url: http://localhost:3000/product/prod_01KY7NEPGQZKRSAJ8DD1R4NWYX
+- via: pushState
+
+## 2026-07-28 19:13:57.969Z click
+- element: {"tag":"h1","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Auditoría de Ciberseguridad y Ethical Hacking"}
+
+## 2026-07-28 19:14:00.519Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Back to Store"}
+
+## 2026-07-28 19:14:00.519Z navigate
+- url: http://localhost:3000/tienda
+- via: pushState
+
+## 2026-07-28 19:19:26.399Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Nuevo$2,687,913.00Dell Pro 15 Essential PV15250 - Intel i5, 8 GB DDR5, 512 GBComputadora Portátil de alto rendimiento para profesionales Add to Cart"}
+
+## 2026-07-28 19:19:26.400Z navigate
+- url: http://localhost:3000/product/local_dell_pro_15_essential
+- via: pushState
+

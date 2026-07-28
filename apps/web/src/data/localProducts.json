@@ -84,5 +84,80 @@
       "peso": "1,9 kg",
       "garantia": "1 años básica"
     }
+  },
+  {
+    "id": "local_asus_vivobook_16_m1605naq_mb101",
+    "title": "Portátil ASUS Vivobook 16 M1605NAQ-MB101 AMD Ryzen 7, 16 GB, 512 GB",
+    "subtitle": "Portátil de alto rendimiento con pantalla de 16 pulgadas",
+    "description": "Portátil ASUS Vivobook 16 M1605NAQ-MB101 AMD Ryzen™ 7 170 Processor 3.2GHz, 16 , 16GB, 512 SSD, SO Keep, Indie Black SKU: 90NB1831-M00J50",
+    "image": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/ASUS/M1605NAQ-MB101/M1605NAQ-MB101_1.png",
+    "price_in_cents": 288384100,
+    "currency": "COP",
+    "category": "portatil",
+    "ribbon_text": "Nuevo",
+    "purchasable": true,
+    "order": 2,
+    "variants": [
+      {
+        "id": "local_asus_vivobook_16_m1605naq_mb101_variant",
+        "title": "Portátil ASUS Vivobook 16 M1605NAQ-MB101 - Default",
+        "image_url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/ASUS/M1605NAQ-MB101/M1605NAQ-MB101_1.png",
+        "sku": "90NB1831-M00J50",
+        "price_in_cents": 288384100,
+        "sale_price_in_cents": null,
+        "currency": "COP",
+        "currency_info": {
+          "code": "COP",
+          "symbol": "$",
+          "template": "$1",
+          "decimal_digits": 2
+        },
+        "price_formatted": "$2,883,841.00",
+        "sale_price_formatted": null,
+        "manage_inventory": true,
+        "weight": 1800,
+        "options": [],
+        "inventory_quantity": 10
+      }
+    ],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/ASUS/M1605NAQ-MB101/M1605NAQ-MB101_1.png",
+        "order": 0,
+        "type": "main"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/ASUS/M1605NAQ-MB101/M1605NAQ-MB101_2.png",
+        "order": 1,
+        "type": "gallery"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/ASUS/M1605NAQ-MB101/90NB1831-M00J50_3.jpg",
+        "order": 2,
+        "type": "gallery"
+      }
+    ],
+    "options": [],
+    "collections": [],
+    "additional_info": [],
+    "type": {
+      "value": "physical"
+    },
+    "custom_fields": [],
+    "related_products": [],
+    "updated_at": "2024-07-28T14:05:00.000Z",
+    "created_at": "2024-07-28T14:05:00.000Z",
+    "specifications": {
+      "tipo_producto": "Computadora Portátil",
+      "marca": "ASUS",
+      "modelo": "Vivobook 16 M1605NAQ-MB101",
+      "procesador": "AMD Ryzen™ 7 170",
+      "frecuencia_procesador": "3.2GHz",
+      "memoria_interna": "16 GB",
+      "almacenamiento": "512 GB SSD",
+      "sistema_operativo": "Keep",
+      "color": "Indie Black",
+      "sku": "90NB1831-M00J50"
+    }
   }
 ]
