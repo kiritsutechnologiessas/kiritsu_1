@@ -311,5 +311,72 @@
       "color": "Azul",
       "sku": "82XQ000BLM"
     }
+  },
+  {
+    "id": "local_acer_ag15_52p_56cq",
+    "title": "Portatil Acer AG15-52P-56CQ Intel Ultra 5, 16 GB, 1 TB",
+    "subtitle": "Portátil de alto rendimiento con pantalla de 16 pulgadas",
+    "description": "Portatil Acer AG15-52P-56CQ ULTRA CU5115U 16 FHD 16GB (1*16GB)DDR5/1TBSSD/WIFI6+BT Office Prueba (Game Pass 3M) Windows 11 Home Color Pure silver SKU: NX.JWKAL.004",
+    "image": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/ACER/NX.JWKAL.004/NX.JWKAL.004_1.png",
+    "price_in_cents": 335632100,
+    "currency": "COP",
+    "category": "portatil",
+    "ribbon_text": "Nuevo",
+    "purchasable": true,
+    "order": 5,
+    "variants": [
+      {
+        "id": "local_acer_ag15_52p_56cq_variant",
+        "title": "Portatil Acer AG15-52P-56CQ - Default",
+        "image_url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/ACER/NX.JWKAL.004/NX.JWKAL.004_1.png",
+        "sku": "NX.JWKAL.004",
+        "price_in_cents": 335632100,
+        "sale_price_in_cents": null,
+        "currency": "COP",
+        "currency_info": {
+          "code": "COP",
+          "symbol": "$",
+          "template": "$1",
+          "decimal_digits": 2
+        },
+        "price_formatted": "$3,356,321.00",
+        "sale_price_formatted": null,
+        "manage_inventory": true,
+        "weight": 2200,
+        "options": [],
+        "inventory_quantity": 10
+      }
+    ],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/ACER/NX.JWKAL.004/NX.JWKAL.004_1.png",
+        "order": 0,
+        "type": "main"
+      }
+    ],
+    "options": [],
+    "collections": [],
+    "additional_info": [],
+    "type": {
+      "value": "physical"
+    },
+    "custom_fields": [],
+    "related_products": [],
+    "updated_at": "2024-07-28T15:09:00.000Z",
+    "created_at": "2024-07-28T15:09:00.000Z",
+    "specifications": {
+      "tipo_producto": "Computadora Portátil",
+      "marca": "ACER",
+      "modelo": "AG15-52P-56CQ",
+      "procesador": "Intel Ultra 5 CU5115U",
+      "pantalla": "16 FHD",
+      "memoria_interna": "16 GB DDR5",
+      "almacenamiento": "1 TB SSD",
+      "conectividad": "WIFI6+BT",
+      "sistema_operativo": "Windows 11 Home",
+      "color": "Pure silver",
+      "extras": "Office Prueba (Game Pass 3M)",
+      "sku": "NX.JWKAL.004"
+    }
   }
 ]

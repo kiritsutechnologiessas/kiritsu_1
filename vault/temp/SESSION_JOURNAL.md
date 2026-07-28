@@ -3574,3 +3574,486 @@
 ## 2026-07-28 19:47:21.341Z click
 - element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
 
+## 2026-07-28 20:05:32.066Z load
+- url: http://localhost:3000/tienda/portatiles
+
+## 2026-07-28 20:10:09.475Z window.error
+- message: Uncaught TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- source: http://localhost:3000/src/components/Navbar.jsx?t=1785267925860
+- line: 37
+- col: 5
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3739:39)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19818:15)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+
+## 2026-07-28 20:10:09.490Z window.error
+- message: Uncaught TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- source: http://localhost:3000/src/components/Navbar.jsx?t=1785267925860
+- line: 37
+- col: 5
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3739:39)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19818:15)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+
+## 2026-07-28 20:10:09.498Z console.error
+- text: 
+    The above error occurred in the <Navbar> component:
+    
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:33:3)
+        at div
+        at Layout (http://localhost:3000/src/components/Layout.jsx?t=1785267925860:10:39)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:10816:3)
+        at CartProvider (http://localhost:3000/src/hooks/useCart.jsx?t=1785269409299:12:32)
+        at AuthProvider (http://localhost:3000/src/contexts/AuthContext.jsx:11:32)
+        at App
+    
+    Consider adding an error boundary to your tree to customize error handling behavior.
+    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+## 2026-07-28 20:10:09.500Z unhandledrejection
+- message: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19806:22)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19169:15)
+        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:18786:28)
+        at performSyncWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:18932:28)
+
+## 2026-07-28 20:10:09.479Z window.error
+- message: Uncaught TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- source: http://localhost:3000/src/components/Navbar.jsx?t=1785267925860
+- line: 37
+- col: 5
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3739:39)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19818:15)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+
+## 2026-07-28 20:10:09.509Z window.error
+- message: Uncaught TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- source: http://localhost:3000/src/components/Navbar.jsx?t=1785267925860
+- line: 37
+- col: 5
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3739:39)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19818:15)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+
+## 2026-07-28 20:10:09.515Z console.error
+- text: 
+    The above error occurred in the <Navbar> component:
+    
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:33:3)
+        at div
+        at Layout (http://localhost:3000/src/components/Layout.jsx?t=1785267925860:10:39)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:10816:3)
+        at CartProvider (http://localhost:3000/src/hooks/useCart.jsx?t=1785269409299:12:32)
+        at AuthProvider (http://localhost:3000/src/contexts/AuthContext.jsx:11:32)
+        at App
+    
+    Consider adding an error boundary to your tree to customize error handling behavior.
+    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+## 2026-07-28 20:10:09.520Z unhandledrejection
+- message: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19806:22)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19169:15)
+        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:18786:28)
+        at performSyncWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:18932:28)
+
+## 2026-07-28 20:10:09.477Z window.error
+- message: Uncaught TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- source: http://localhost:3000/src/components/Navbar.jsx?t=1785267925860
+- line: 37
+- col: 5
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3739:39)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19818:15)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+
+## 2026-07-28 20:10:09.502Z window.error
+- message: Uncaught TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- source: http://localhost:3000/src/components/Navbar.jsx?t=1785267925860
+- line: 37
+- col: 5
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3739:39)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19818:15)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+
+## 2026-07-28 20:10:09.514Z console.error
+- text: 
+    The above error occurred in the <Navbar> component:
+    
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:33:3)
+        at div
+        at Layout (http://localhost:3000/src/components/Layout.jsx?t=1785267925860:10:39)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:10816:3)
+        at CartProvider (http://localhost:3000/src/hooks/useCart.jsx?t=1785269409299:12:32)
+        at AuthProvider (http://localhost:3000/src/contexts/AuthContext.jsx:11:32)
+        at App
+    
+    Consider adding an error boundary to your tree to customize error handling behavior.
+    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+## 2026-07-28 20:10:09.520Z unhandledrejection
+- message: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19806:22)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19169:15)
+        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:18786:28)
+        at performSyncWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:18932:28)
+
+## 2026-07-28 20:10:09.505Z window.error
+- message: Uncaught TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- source: http://localhost:3000/src/components/Navbar.jsx?t=1785267925860
+- line: 37
+- col: 5
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3739:39)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19818:15)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+
+## 2026-07-28 20:10:09.541Z window.error
+- message: Uncaught TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- source: http://localhost:3000/src/components/Navbar.jsx?t=1785267925860
+- line: 37
+- col: 5
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3739:39)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19818:15)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+
+## 2026-07-28 20:10:09.554Z console.error
+- text: 
+    The above error occurred in the <Navbar> component:
+    
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:33:3)
+        at div
+        at Layout (http://localhost:3000/src/components/Layout.jsx?t=1785267925860:10:39)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:10816:3)
+        at CartProvider (http://localhost:3000/src/hooks/useCart.jsx?t=1785269409299:12:32)
+        at AuthProvider (http://localhost:3000/src/contexts/AuthContext.jsx:11:32)
+        at App
+    
+    Consider adding an error boundary to your tree to customize error handling behavior.
+    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+## 2026-07-28 20:10:09.563Z unhandledrejection
+- message: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19806:22)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19169:15)
+        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:18786:28)
+        at performSyncWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:18932:28)
+
+## 2026-07-28 20:10:09.494Z window.error
+- message: Uncaught TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- source: http://localhost:3000/src/components/Navbar.jsx?t=1785267925860
+- line: 37
+- col: 5
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3739:39)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19818:15)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+
+## 2026-07-28 20:10:09.513Z window.error
+- message: Uncaught TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- source: http://localhost:3000/src/components/Navbar.jsx?t=1785267925860
+- line: 37
+- col: 5
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3739:39)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19818:15)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+
+## 2026-07-28 20:10:09.520Z console.error
+- text: 
+    The above error occurred in the <Navbar> component:
+    
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:33:3)
+        at div
+        at Layout (http://localhost:3000/src/components/Layout.jsx?t=1785267925860:10:39)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:10816:3)
+        at CartProvider (http://localhost:3000/src/hooks/useCart.jsx?t=1785269409299:12:32)
+        at AuthProvider (http://localhost:3000/src/contexts/AuthContext.jsx:11:32)
+        at App
+    
+    Consider adding an error boundary to your tree to customize error handling behavior.
+    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+## 2026-07-28 20:10:09.522Z unhandledrejection
+- message: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19806:22)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19169:15)
+        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:18786:28)
+        at performSyncWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:18932:28)
+
+## 2026-07-28 20:10:09.484Z window.error
+- message: Uncaught TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- source: http://localhost:3000/src/components/Navbar.jsx?t=1785267925860
+- line: 37
+- col: 5
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3739:39)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19818:15)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+
+## 2026-07-28 20:10:09.501Z window.error
+- message: Uncaught TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- source: http://localhost:3000/src/components/Navbar.jsx?t=1785267925860
+- line: 37
+- col: 5
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3680:22)
+        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3705:24)
+        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:3739:39)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19818:15)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+
+## 2026-07-28 20:10:09.505Z console.error
+- text: 
+    The above error occurred in the <Navbar> component:
+    
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:33:3)
+        at div
+        at Layout (http://localhost:3000/src/components/Layout.jsx?t=1785267925860:10:39)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=56059863:10816:3)
+        at CartProvider (http://localhost:3000/src/hooks/useCart.jsx?t=1785269409299:12:32)
+        at AuthProvider (http://localhost:3000/src/contexts/AuthContext.jsx:11:32)
+        at App
+    
+    Consider adding an error boundary to your tree to customize error handling behavior.
+    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+## 2026-07-28 20:10:09.508Z unhandledrejection
+- message: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+- stack: 
+    TypeError: Cannot destructure property 'getCartCount' of 'useCart(...)' as it is undefined.
+        at Navbar (http://localhost:3000/src/components/Navbar.jsx?t=1785267925860:37:5)
+        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:11596:26)
+        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:14974:21)
+        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:15962:22)
+        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19806:22)
+        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19251:20)
+        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19190:13)
+        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:19169:15)
+        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:18786:28)
+        at performSyncWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-POVVOG4E.js?v=56059863:18932:28)
+
+## 2026-07-28 20:10:57.244Z load
+- url: http://localhost:3000/tienda/portatiles
+
+## 2026-07-28 20:11:02.903Z click
+- element: {"tag":"label","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"ACER"}
+
+## 2026-07-28 20:11:02.904Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 20:11:03.693Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 20:11:06.152Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 20:11:10.902Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 20:11:12.723Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 20:11:13.483Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 20:11:15.181Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 20:11:15.742Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 20:11:16.765Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 20:11:17.312Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 20:11:18.086Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 20:11:18.646Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 20:11:22.097Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Nuevo$3,356,321.00Portatil Acer AG15-52P-56CQ Intel Ultra 5, 16 GB, 1 TBPortátil de alto rendimiento con pantalla de 16 pulgadas Agregar al carrito"}
+
+## 2026-07-28 20:11:22.098Z navigate
+- url: http://localhost:3000/product/local_acer_ag15_52p_56cq
+- via: pushState
+
+## 2026-07-28 20:11:36.906Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Back to Store"}
+
+## 2026-07-28 20:11:36.906Z navigate
+- url: http://localhost:3000/tienda
+- via: pushState
+
+## 2026-07-28 20:11:40.243Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"E-commerce"}
+
+## 2026-07-28 20:11:41.734Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Portátil"}
+
+## 2026-07-28 20:11:41.735Z navigate
+- url: http://localhost:3000/tienda/portatiles
+- via: pushState
+

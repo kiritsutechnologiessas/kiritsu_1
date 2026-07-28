@@ -152,7 +152,7 @@ const LaptopsCatalogPage = () => {
 
   // Filter options
   const brandOptions = ['ACER', 'ASUS', 'HP', 'LENOVO', 'DELL', 'MSI', 'APPLE', 'COMPUMAX'];
-  const processorOptions = ['Intel i3', 'Intel i5', 'Intel i7', 'Intel i9', 'AMD Ryzen 3', 'AMD Ryzen 5', 'AMD Ryzen 7', 'AMD Ryzen 9'];
+  const processorOptions = ['Intel i3', 'Intel i5', 'Intel i7', 'Intel i9', 'Intel Ultra 3', 'Intel Ultra 5', 'Intel Ultra 7', 'AMD Ryzen 3', 'AMD Ryzen 5', 'AMD Ryzen 7', 'AMD Ryzen 9'];
   const ramOptions = ['8 GB', '12 GB', '16 GB', '24 GB', '32 GB'];
   const storageOptions = ['256 GB', '512 GB', '1 TB', '2 TB'];
 
