@@ -2886,3 +2886,143 @@
 ## 2026-07-28 18:30:11.306Z click
 - element: {"tag":"h1","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Dell Pro 15 Essential PV15250 - Intel i5, 8 GB DDR5, 512 GB"}
 
+## 2026-07-28 18:44:39.433Z load
+- url: http://localhost:3000/
+
+## 2026-07-28 18:44:39.563Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-07-28 18:44:42.056Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"E-commerce"}
+
+## 2026-07-28 18:44:44.170Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Portátil"}
+
+## 2026-07-28 18:44:44.171Z navigate
+- url: http://localhost:3000/tienda/portatiles
+- via: pushState
+
+## 2026-07-28 18:44:48.489Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Nuevo$2,687,913.00Dell Pro 15 Essential PV15250 - Intel i5, 8 GB DDR5, 512 GBComputadora Portátil de alto rendimiento para profesionales Agregar al carrito"}
+
+## 2026-07-28 18:44:48.489Z navigate
+- url: http://localhost:3000/product/local_dell_pro_15_essential
+- via: pushState
+
+## 2026-07-28 18:44:51.405Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Next image","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:44:52.125Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Next image","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:44:54.222Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Previous image","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:44:54.805Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Previous image","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:45:18.158Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Next image","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:45:18.934Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Next image","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:45:21.345Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Back to Store"}
+
+## 2026-07-28 18:45:21.346Z navigate
+- url: http://localhost:3000/tienda
+- via: pushState
+
+## 2026-07-28 18:45:29.265Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"E-commerce"}
+
+## 2026-07-28 18:45:40.686Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Portátil"}
+
+## 2026-07-28 18:45:40.686Z navigate
+- url: http://localhost:3000/tienda/portatiles
+- via: pushState
+
+## 2026-07-28 18:45:46.799Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:45:47.367Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:45:48.213Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:45:48.710Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:45:52.092Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:45:53.080Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:45:56.459Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:45:56.858Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:45:57.642Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:45:58.290Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:46:00.100Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Nuevo$2,687,913.00Dell Pro 15 Essential PV15250 - Intel i5, 8 GB DDR5, 512 GBComputadora Portátil de alto rendimiento para profesionales Agregar al carrito"}
+
+## 2026-07-28 18:46:00.101Z navigate
+- url: http://localhost:3000/product/local_dell_pro_15_essential
+- via: pushState
+
+## 2026-07-28 18:46:27.583Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Next image","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:46:28.280Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Next image","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:46:29.036Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Next image","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:46:33.812Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Next image","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:46:34.318Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Next image","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:46:35.016Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Next image","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:46:37.894Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Next image","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 18:46:53.136Z click
+- element: {"tag":"h1","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Dell Pro 15 Essential PV15250 - Intel i5, 8 GB DDR5, 512 GB"}
+
+## 2026-07-28 18:47:00.369Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"E-commerce"}
+
+## 2026-07-28 18:47:02.538Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Ver todo el catálogo"}
+
+## 2026-07-28 18:47:02.538Z navigate
+- url: http://localhost:3000/tienda
+- via: pushState
+
+## 2026-07-28 18:47:12.137Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"E-commerce"}
+
+## 2026-07-28 18:47:15.501Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Portátil"}
+
+## 2026-07-28 18:47:15.501Z navigate
+- url: http://localhost:3000/tienda/portatiles
+- via: pushState
+

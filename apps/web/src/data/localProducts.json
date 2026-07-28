@@ -4,7 +4,7 @@
     "title": "Dell Pro 15 Essential PV15250 - Intel i5, 8 GB DDR5, 512 GB",
     "subtitle": "Computadora Portátil de alto rendimiento para profesionales",
     "description": "Computadora Portátil; Factor de forma: Concha; Familia de procesador: Intel® Core™ i5; Modelo del procesador: i5-1334U; Diagonal de la pantalla: 39,6 cm (15.6\"); Tipo HD: Full HD; Resolución de la pantalla: 1920 x 1080 Pixeles; Memoria interna: 8 GB DDR5-SDRAM (1 x 8 GB); Memoria máxima: 16 GB; Rango de transferencia de datos: 4400 MT/s; Capacidad total de almacenaje: 512 GB; Unidad de almacenamiento: SSD M.2 NVMe PCI Express 4.0; Tipo de memoria SSD: QLC; Clase de rendimiento de la SSD: 25; Modelo de gráficos en tarjeta: Intel® UHD Graphics; Conectividad: Wi-Fi, Bluetooth; Extras: Lector de tarjeta integrado (SD, SDHC, SDXC); Sistema operativo instalado: Windows 11 Pro 64-bit; Color del producto: Platino, Plata; Peso: 1,9 kg; Garantía 1 años básica",
-    "image": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/gh-pages/media/Dell%20Pro%2015%20Essential%20PV15250_1.png",
+    "image": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/DELL/PV15250/Dell%20Pro%2015%20Essential%20PV15250_1.png",
     "price_in_cents": 268791300,
     "currency": "COP",
     "category": "portatil",
@@ -15,7 +15,7 @@
       {
         "id": "local_dell_pro_15_essential_variant",
         "title": "Dell Pro 15 Essential PV15250 - Default",
-        "image_url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/gh-pages/media/Dell%20Pro%2015%20Essential%20PV15250_1.png",
+        "image_url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/DELL/PV15250/Dell%20Pro%2015%20Essential%20PV15250_1.png",
         "sku": "DELL-PV15250",
         "price_in_cents": 268791300,
         "sale_price_in_cents": null,
@@ -36,17 +36,17 @@
     ],
     "images": [
       {
-        "url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/gh-pages/media/Dell%20Pro%2015%20Essential%20PV15250_1.png",
+        "url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/DELL/PV15250/Dell%20Pro%2015%20Essential%20PV15250_1.png",
         "order": 0,
         "type": "main"
       },
       {
-        "url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/gh-pages/media/Dell%20Pro%2015%20Essential%20PV15250_2.png",
+        "url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/DELL/PV15250/Dell%20Pro%2015%20Essential%20PV15250_2.png",
         "order": 1,
         "type": "gallery"
       },
       {
-        "url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/gh-pages/media/Dell%20Pro%2015%20Essential%20PV15250_3.png",
+        "url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/DELL/PV15250/Dell%20Pro%2015%20Essential%20PV15250_3.png",
         "order": 2,
         "type": "gallery"
       }
