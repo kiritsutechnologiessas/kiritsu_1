@@ -84,7 +84,7 @@ const ProductCard = ({ product, index }) => {
   );
 };
 
-const ProductsList = () => {
+const ProductsList = ({ category }) => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -133,6 +133,46 @@ const ProductsList = () => {
     fetchProductsWithQuantities();
   }, []);
 
+  const filteredProducts = useMemo(() => {
+    if (!category) return products;
+    
+    const categoryMap = {
+      'computador': 'computador',
+      'portatiles': 'portatil',
+      'accesorios-pc': 'accesorio',
+      'mouse-teclados': 'mouse',
+      'software': 'software'
+    };
+
+    const searchTerm = categoryMap[category] || category;
+    
+    // Prioritize exact category match, then search in title/subtitle
+    return products.filter(product => {
+      // First check if product has explicit category field
+      if (product.category && product.category.toLowerCase() === searchTerm) {
+        return true;
+      }
+      
+      // If no explicit category match, search in title/subtitle but be more strict
+      const titleLower = product.title.toLowerCase();
+      const subtitleLower = product.subtitle?.toLowerCase() || '';
+      
+      // For 'computador' category, exclude products that are specifically laptops
+      if (searchTerm === 'computador') {
+        // Exclude if it contains portatil/laptop keywords
+        if (titleLower.includes('portatil') || titleLower.includes('portátil') || 
+            titleLower.includes('laptop') || subtitleLower.includes('portatil') || 
+            subtitleLower.includes('portátil') || subtitleLower.includes('laptop')) {
+          return false;
+        }
+        return titleLower.includes('computador') || subtitleLower.includes('computador');
+      }
+      
+      // For other categories, search normally
+      return titleLower.includes(searchTerm) || subtitleLower.includes(searchTerm);
+    });
+  }, [products, category]);
+
   if (loading) {
     return (
       <div className="flex justify-center items-center h-64">
@@ -149,7 +189,7 @@ const ProductsList = () => {
     );
   }
 
-  if (products.length === 0) {
+  if (filteredProducts.length === 0) {
     return (
       <div className="text-center text-gray-400 p-8">
         <p>No products available at the moment.</p>
@@ -159,7 +199,7 @@ const ProductsList = () => {
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-      {products.map((product, index) => (
+      {filteredProducts.map((product, index) => (
         <ProductCard key={product.id} product={product} index={index} />
       ))}
     </div>

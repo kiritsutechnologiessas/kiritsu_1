@@ -12,6 +12,8 @@ import ProductDetailPage from '@/pages/ProductDetailPage';
 import AccountPage from '@/pages/AccountPage';
 import SuccessPage from '@/pages/SuccessPage';
 import ContactPage from '@/pages/ContactPage';
+import CategoryPage from '@/pages/CategoryPage';
+import LaptopsCatalogPage from '@/pages/LaptopsCatalogPage';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
               <Route path="/" element={<HomePage />} />
               <Route path="/servicios" element={<ServicesPage />} />
               <Route path="/tienda" element={<StorePage />} />
+              <Route path="/tienda/portatiles" element={<LaptopsCatalogPage />} />
+              <Route path="/categoria/:category" element={<CategoryPage />} />
               <Route path="/product/:id" element={<div className="mx-auto max-w-[90rem] px-5 py-16"><ProductDetailPage /></div>} />
               <Route path="/cuenta" element={<AccountPage />} />
               <Route path="/contactanos" element={<ContactPage />} />

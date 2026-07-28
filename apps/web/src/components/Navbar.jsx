@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ShoppingCart, Menu, X, User, LogOut } from 'lucide-react';
+import { ShoppingCart, Menu, X, User, LogOut, ChevronDown } from 'lucide-react';
 import { useCart } from '@/hooks/useCart';
 import { useAuth } from '@/contexts/AuthContext';
 import { Button } from '@/components/ui/button';
@@ -12,12 +12,22 @@ const links = [{
   to: '/servicios',
   label: 'Servicios'
 }, {
-  to: '/tienda',
-  label: 'E-commerce'
-}, {
   to: '/contactanos',
   label: 'Contáctanos'
 }];
+
+const categories = [
+  {
+    label: 'Computadores y Portátiles',
+    subcategories: [
+      { label: 'Computador', path: '/categoria/computador' },
+      { label: 'Portátil', path: '/tienda/portatiles' },
+      { label: 'Accesorios Pc', path: '/categoria/accesorios-pc' },
+      { label: 'Mouse y Teclados', path: '/categoria/mouse-teclados' },
+      { label: 'Software', path: '/categoria/software' }
+    ]
+  }
+];
 const Navbar = ({
   onCartClick
 }) => {
@@ -30,6 +40,7 @@ const Navbar = ({
     logout
   } = useAuth();
   const [open, setOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
   const count = getCartCount();
   return <header className="fixed top-0 inset-x-0 z-40 border-b border-white/10 bg-background/70 backdrop-blur-xl">
       <div className="mx-auto max-w-[90rem] px-5 h-16 flex items-center justify-between">
@@ -47,6 +58,50 @@ const Navbar = ({
         }) => `text-sm font-medium transition-colors ${isActive ? 'text-white' : 'text-muted-foreground hover:text-white'}`}>
               {l.label}
             </NavLink>)}
+          <div className="relative">
+            <button
+              onClick={() => setDropdownOpen(!dropdownOpen)}
+              className="flex items-center gap-1 text-sm font-medium transition-colors text-muted-foreground hover:text-white"
+            >
+              E-commerce
+              <ChevronDown className={`w-4 h-4 transition-transform ${dropdownOpen ? 'rotate-180' : ''}`} />
+            </button>
+            <AnimatePresence>
+              {dropdownOpen && (
+                <motion.div
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  className="absolute top-full left-0 mt-2 w-64 bg-background/95 backdrop-blur-xl border border-white/10 rounded-lg shadow-xl overflow-hidden"
+                >
+                  {categories.map((category, idx) => (
+                    <div key={idx}>
+                      <div className="px-4 py-3 text-xs font-semibold text-primary uppercase tracking-wider border-b border-white/10">
+                        {category.label}
+                      </div>
+                      {category.subcategories.map((sub, subIdx) => (
+                        <Link
+                          key={subIdx}
+                          to={sub.path}
+                          onClick={() => setDropdownOpen(false)}
+                          className="block px-4 py-2.5 text-sm text-muted-foreground hover:text-white hover:bg-white/5 transition-colors"
+                        >
+                          {sub.label}
+                        </Link>
+                      ))}
+                    </div>
+                  ))}
+                  <Link
+                    to="/tienda"
+                    onClick={() => setDropdownOpen(false)}
+                    className="block px-4 py-2.5 text-sm text-muted-foreground hover:text-white hover:bg-white/5 transition-colors border-t border-white/10"
+                  >
+                    Ver todo el catálogo
+                  </Link>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
         </nav>
 
         <div className="flex items-center gap-2">
@@ -89,6 +144,56 @@ const Navbar = ({
           }) => `py-2.5 text-sm font-medium ${isActive ? 'text-white' : 'text-muted-foreground'}`}>
                   {l.label}
                 </NavLink>)}
+              <div className="py-2">
+                <button
+                  onClick={() => setDropdownOpen(!dropdownOpen)}
+                  className="flex items-center justify-between w-full py-2.5 text-sm font-medium text-muted-foreground"
+                >
+                  E-commerce
+                  <ChevronDown className={`w-4 h-4 transition-transform ${dropdownOpen ? 'rotate-180' : ''}`} />
+                </button>
+                <AnimatePresence>
+                  {dropdownOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, height: 0 }}
+                      animate={{ opacity: 1, height: 'auto' }}
+                      exit={{ opacity: 0, height: 0 }}
+                      className="pl-4 mt-1 space-y-1"
+                    >
+                      {categories.map((category, idx) => (
+                        <div key={idx}>
+                          <div className="py-2 text-xs font-semibold text-primary uppercase tracking-wider">
+                            {category.label}
+                          </div>
+                          {category.subcategories.map((sub, subIdx) => (
+                            <Link
+                              key={subIdx}
+                              to={sub.path}
+                              onClick={() => {
+                                setOpen(false);
+                                setDropdownOpen(false);
+                              }}
+                              className="block py-2 pl-4 text-sm text-muted-foreground hover:text-white"
+                            >
+                              {sub.label}
+                            </Link>
+                          ))}
+                        </div>
+                      ))}
+                      <Link
+                        to="/tienda"
+                        onClick={() => {
+                          setOpen(false);
+                          setDropdownOpen(false);
+                        }}
+                        className="block py-2 pl-4 text-sm text-muted-foreground hover:text-white border-t border-white/10 mt-2 pt-3"
+                      >
+                        Ver todo el catálogo
+                      </Link>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
               <NavLink to="/cuenta" onClick={() => setOpen(false)} className="py-2.5 text-sm font-medium text-muted-foreground">
                 {isAuthed ? 'Mi cuenta' : 'Iniciar sesión'}
               </NavLink>

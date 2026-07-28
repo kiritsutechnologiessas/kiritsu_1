@@ -1,6 +1,9 @@
 const ECOMMERCE_API_URL = "https://api-ecommerce.hostinger.com";
 const ECOMMERCE_STORE_ID = "store_01KY7ND8W758WVKXMT7QHFJ67Y";
 
+// Import local products
+import localProductsData from '../data/localProducts.json';
+
 export const formatCurrency = (priceInCents, currencyInfo) => {
   if (!currencyInfo || priceInCents === null || priceInCents === undefined) {
     return "";
@@ -424,38 +427,45 @@ export async function getProducts({
   }
 
   const data = await response.json();
+  
+  // Combine Hostinger products with local products
+  const hostingerProducts = data.products.map((product) => {
+    const { price_in_cents, currency } = getProductPrice(product);
+
+    return {
+      id: product.id,
+      title: product.title,
+      subtitle: product.subtitle,
+      ribbon_text: product.ribbon_text,
+      description: product.description,
+      image: product.thumbnail,
+      price_in_cents,
+      currency,
+      purchasable: product.purchasable,
+      order: product.order,
+      site_product_selection: product.site_product_selection,
+      images: extractImages(product.images),
+      options: extractProductOptions(product.options),
+      variants: extractVariants(product.variants),
+      collections: extractCollections(product.product_collections),
+      additional_info: extractAdditionalInfo(product.additional_info),
+      type: {
+        value: product.type?.value || "",
+      },
+      custom_fields: extractCustomFields(product.custom_fields),
+      related_products: extractRelatedProducts(product.related_products),
+      updated_at: product.updated_at,
+    };
+  });
+
+  // Add local products
+  const allProducts = [...hostingerProducts, ...localProductsData];
+  
   return {
-    count: data.count,
+    count: data.count + localProductsData.length,
     offset: data.offset,
     limit: data.limit,
-    products: data.products.map((product) => {
-      const { price_in_cents, currency } = getProductPrice(product);
-
-      return {
-        id: product.id,
-        title: product.title,
-        subtitle: product.subtitle,
-        ribbon_text: product.ribbon_text,
-        description: product.description,
-        image: product.thumbnail,
-        price_in_cents,
-        currency,
-        purchasable: product.purchasable,
-        order: product.order,
-        site_product_selection: product.site_product_selection,
-        images: extractImages(product.images),
-        options: extractProductOptions(product.options),
-        variants: extractVariants(product.variants),
-        collections: extractCollections(product.product_collections),
-        additional_info: extractAdditionalInfo(product.additional_info),
-        type: {
-          value: product.type?.value || "",
-        },
-        custom_fields: extractCustomFields(product.custom_fields),
-        related_products: extractRelatedProducts(product.related_products),
-        updated_at: product.updated_at,
-      };
-    }),
+    products: allProducts,
   };
 }
 
@@ -480,6 +490,12 @@ export async function getProducts({
  * });
  */
 export async function getProduct(id, { field } = {}) {
+  // First check if it's a local product
+  const localProduct = localProductsData.find(p => p.id === id);
+  if (localProduct) {
+    return localProduct;
+  }
+
   const queryParams = new URLSearchParams();
 
   if (field) {

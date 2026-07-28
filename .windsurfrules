@@ -1,0 +1,46 @@
+# Reglas y Preferencias del Proyecto
+
+## Información del Proyecto
+- **Ruta del proyecto**: C:\Users\ASUS\Documents\Proyecto\horizons-export-bf9fa087-fcdc-411c-8b39-287d9981febb (1)
+- **Tipo**: Proyecto web local (monorepo con apps/web y apps/pocketbase)
+- **Estado**: Proyecto activo con modificaciones constantes
+
+## Instrucciones para Cascade
+- Este proyecto se encuentra en la máquina local del usuario
+- El usuario solicitará modificaciones constantemente al proyecto
+- No olvidar la ruta del proyecto para futuras referencias
+- Mantener siempre el contexto de que es un proyecto web en desarrollo activo
+
+## Sistema de Diseño
+- **Framework**: React + Vite + Tailwind CSS
+- **Componentes UI**: shadcn/ui (Card, Button, Checkbox, Slider, etc.)
+- **Colores**: Tema oscuro con variables CSS personalizadas (--primary, --secondary, --background, etc.)
+- **Tipografía**: Orbitron (display) + Space Grotesk (body)
+- **Estilos**: glass-card, text-gradient, glow-border, grid-bg
+- **Animaciones**: Framer Motion para transiciones
+- **Estado global**: CartContext (useCart hook), AuthContext
+- **Rutas**: React Router v6
+
+## Historial de Decisiones Arquitectónicas
+- [Fecha inicial] Proyecto web local establecido en la ruta especificada
+- [28/07/2026] Actualización de navegación: Cambio de "Portátiles" a "Portátil" en el menú E-commerce
+- [28/07/2026] Creación de página de catálogo de portátiles (/tienda/portatiles) con filtros avanzados:
+  * Barra lateral de filtros interactivos (marca, procesador, RAM, almacenamiento, rango de precio)
+  * Sistema de ordenamiento (destacados, precio ascendente/descendente, más recientes, populares)
+  * Chips de filtros activos con opción de limpiar
+  * Grid responsivo de productos con cards animadas
+  * Paginación básica
+  * Diseño responsivo con toggle de filtros en móvil
+  * Mantenimiento del sistema de diseño existente (glass-card, gradientes, colores del tema)
+- [28/07/2026] Implementación de sistema híbrido de productos:
+  * EcommerceApi.js ahora combina productos de Hostinger API con productos locales
+  * Archivo localProducts.json en src/data/ para productos adicionales
+  * Función getProducts() retorna combinación de productos de ambas fuentes
+  * Función getProduct() busca primero en productos locales, luego en Hostinger
+  * Producto Dell Pro 15 Essential PV15250 agregado como producto local ($2,687,913 COP)
+  * Estructura de productos locales compatible con formato de Hostinger API
+- [28/07/2026] Correcciones en catálogo de portátiles:
+  * Rango máximo de filtro de precio aumentado a $50,000,000 COP
+  * Lógica de filtrado mejorada con regex para coincidencias exactas en RAM y almacenamiento
+  * Título del producto ajustado: "Dell Pro 15 Essential PV15250 - Intel i5, 8 GB DDR5, 512 GB"
+  * Filtrado por categoría corregido para excluir portátiles de categoría computador

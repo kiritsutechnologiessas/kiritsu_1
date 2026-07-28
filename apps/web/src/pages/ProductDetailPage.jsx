@@ -156,7 +156,7 @@ function ProductDetailPage() {
         <meta name="description" content={product.description?.substring(0, 160) || product.title} />
       </Helmet>
       <div className="max-w-5xl mx-auto">
-        <Link to="/store" className="inline-flex items-center gap-2 text-white hover:text-purple-300 transition-colors mb-6">
+        <Link to="/tienda" className="inline-flex items-center gap-2 text-white hover:text-purple-300 transition-colors mb-6">
           <ArrowLeft size={16} />
           Back to Store
         </Link>
