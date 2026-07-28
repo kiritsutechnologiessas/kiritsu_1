@@ -3500,3 +3500,77 @@
 - url: http://localhost:3000/tienda/portatiles
 - via: pushState
 
+## 2026-07-28 19:46:23.829Z load
+- url: http://localhost:3000/tienda/portatiles
+
+## 2026-07-28 19:46:30.224Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Nuevo$3,239,088.00Portátil Lenovo IdeaPad Slim 3 15AMN8 AMD Ryzen 5, 16 GB, 512 GBPortátil de alto rendimiento con pantalla de 15.6 pulgadas Agregar al carrito"}
+
+## 2026-07-28 19:46:30.225Z navigate
+- url: http://localhost:3000/product/local_lenovo_ideapad_slim_3_15amn8
+- via: pushState
+
+## 2026-07-28 19:46:42.523Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Back to Store"}
+
+## 2026-07-28 19:46:42.524Z navigate
+- url: http://localhost:3000/tienda
+- via: pushState
+
+## 2026-07-28 19:46:44.085Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"E-commerce"}
+
+## 2026-07-28 19:46:45.780Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Portátil"}
+
+## 2026-07-28 19:46:45.780Z navigate
+- url: http://localhost:3000/tienda/portatiles
+- via: pushState
+
+## 2026-07-28 19:46:51.581Z click
+- element: {"tag":"label","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"LENOVO"}
+
+## 2026-07-28 19:46:51.582Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:46:52.342Z click
+- element: {"tag":"label","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"LENOVO"}
+
+## 2026-07-28 19:46:52.342Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:46:57.049Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Nuevo$3,239,088.00Portátil Lenovo IdeaPad Slim 3 15AMN8 AMD Ryzen 5, 16 GB, 512 GBPortátil de alto rendimiento con pantalla de 15.6 pulgadas Agregar al carrito"}
+
+## 2026-07-28 19:46:57.050Z navigate
+- url: http://localhost:3000/product/local_lenovo_ideapad_slim_3_15amn8
+- via: pushState
+
+## 2026-07-28 19:47:03.673Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"E-commerce"}
+
+## 2026-07-28 19:47:04.657Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Portátil"}
+
+## 2026-07-28 19:47:04.657Z navigate
+- url: http://localhost:3000/tienda/portatiles
+- via: pushState
+
+## 2026-07-28 19:47:14.257Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:47:15.271Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:47:16.757Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:47:18.115Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:47:20.041Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:47:21.341Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+

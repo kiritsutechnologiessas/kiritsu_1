@@ -236,5 +236,80 @@
       "extras": "Morral y Mouse",
       "sku": "90NB10J2-M04A90"
     }
+  },
+  {
+    "id": "local_lenovo_ideapad_slim_3_15amn8",
+    "title": "Portátil Lenovo IdeaPad Slim 3 15AMN8 AMD Ryzen 5, 16 GB, 512 GB",
+    "subtitle": "Portátil de alto rendimiento con pantalla de 15.6 pulgadas",
+    "description": "Portátil Lenovo IdeaPad Slim 3 15AMN8 AMD Ryzen 5 7520U 15.6 Pulgadas FHD Memoria 16GB Estado Solido 512GB Windows 11 Home Color Azul SKU: 82XQ000BLM",
+    "image": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/LENOVO/82XQ000BLM/82XQ000BLM_1.jpg",
+    "price_in_cents": 323908800,
+    "currency": "COP",
+    "category": "portatil",
+    "ribbon_text": "Nuevo",
+    "purchasable": true,
+    "order": 4,
+    "variants": [
+      {
+        "id": "local_lenovo_ideapad_slim_3_15amn8_variant",
+        "title": "Portátil Lenovo IdeaPad Slim 3 15AMN8 - Default",
+        "image_url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/LENOVO/82XQ000BLM/82XQ000BLM_1.jpg",
+        "sku": "82XQ000BLM",
+        "price_in_cents": 323908800,
+        "sale_price_in_cents": null,
+        "currency": "COP",
+        "currency_info": {
+          "code": "COP",
+          "symbol": "$",
+          "template": "$1",
+          "decimal_digits": 2
+        },
+        "price_formatted": "$3,239,088.00",
+        "sale_price_formatted": null,
+        "manage_inventory": true,
+        "weight": 1750,
+        "options": [],
+        "inventory_quantity": 10
+      }
+    ],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/LENOVO/82XQ000BLM/82XQ000BLM_1.jpg",
+        "order": 0,
+        "type": "main"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/LENOVO/82XQ000BLM/82XQ000BLM_2.jpg",
+        "order": 1,
+        "type": "gallery"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/LENOVO/82XQ000BLM/82XQ000BLM_3.jpg",
+        "order": 2,
+        "type": "gallery"
+      }
+    ],
+    "options": [],
+    "collections": [],
+    "additional_info": [],
+    "type": {
+      "value": "physical"
+    },
+    "custom_fields": [],
+    "related_products": [],
+    "updated_at": "2024-07-28T14:44:00.000Z",
+    "created_at": "2024-07-28T14:44:00.000Z",
+    "specifications": {
+      "tipo_producto": "Computadora Portátil",
+      "marca": "LENOVO",
+      "modelo": "IdeaPad Slim 3 15AMN8",
+      "procesador": "AMD Ryzen 5 7520U",
+      "pantalla": "15.6 Pulgadas FHD",
+      "memoria_interna": "16 GB",
+      "almacenamiento": "512 GB SSD",
+      "sistema_operativo": "Windows 11 Home",
+      "color": "Azul",
+      "sku": "82XQ000BLM"
+    }
   }
 ]
