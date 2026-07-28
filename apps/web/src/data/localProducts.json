@@ -159,5 +159,82 @@
       "color": "Indie Black",
       "sku": "90NB1831-M00J50"
     }
+  },
+  {
+    "id": "local_asus_vivobook_15_x1504va_bq4555",
+    "title": "Portátil ASUS Vivobook 15 X1504VA-BQ4555 Intel i5, 12 GB, 512 GB",
+    "subtitle": "Portátil de alto rendimiento con pantalla de 15.6 pulgadas",
+    "description": "Portátil ASUS Vivobook 15 X1504VA-BQ4555 Intel® Core™ i5-1334U Processor 1.3 GHz , 15,6 FHD, 8GB, 512 SSD, SO Keep, Cool Silver. Morral y Mouse SKU: 90NB10J2-M04A90",
+    "image": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/ASUS/X1504VA-BQ4555/90NB10J2-M04A90_1.jpg",
+    "price_in_cents": 235317200,
+    "currency": "COP",
+    "category": "portatil",
+    "ribbon_text": "Nuevo",
+    "purchasable": true,
+    "order": 3,
+    "variants": [
+      {
+        "id": "local_asus_vivobook_15_x1504va_bq4555_variant",
+        "title": "Portátil ASUS Vivobook 15 X1504VA-BQ4555 - Default",
+        "image_url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/ASUS/X1504VA-BQ4555/90NB10J2-M04A90_1.jpg",
+        "sku": "90NB10J2-M04A90",
+        "price_in_cents": 235317200,
+        "sale_price_in_cents": null,
+        "currency": "COP",
+        "currency_info": {
+          "code": "COP",
+          "symbol": "$",
+          "template": "$1",
+          "decimal_digits": 2
+        },
+        "price_formatted": "$2,353,172.00",
+        "sale_price_formatted": null,
+        "manage_inventory": true,
+        "weight": 1700,
+        "options": [],
+        "inventory_quantity": 10
+      }
+    ],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/ASUS/X1504VA-BQ4555/90NB10J2-M04A90_1.jpg",
+        "order": 0,
+        "type": "main"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/ASUS/X1504VA-BQ4555/90NB10J2-M04A90_2.jpg",
+        "order": 1,
+        "type": "gallery"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/kiritsutechnologiessas/kiritsu_1/main/media/Portatiles/ASUS/X1504VA-BQ4555/90NB10J2-M04A90_3.jpg",
+        "order": 2,
+        "type": "gallery"
+      }
+    ],
+    "options": [],
+    "collections": [],
+    "additional_info": [],
+    "type": {
+      "value": "physical"
+    },
+    "custom_fields": [],
+    "related_products": [],
+    "updated_at": "2024-07-28T14:27:00.000Z",
+    "created_at": "2024-07-28T14:27:00.000Z",
+    "specifications": {
+      "tipo_producto": "Computadora Portátil",
+      "marca": "ASUS",
+      "modelo": "Vivobook 15 X1504VA-BQ4555",
+      "procesador": "Intel® Core™ i5-1334U",
+      "frecuencia_procesador": "1.3 GHz",
+      "pantalla": "15,6 FHD",
+      "memoria_interna": "8 GB",
+      "almacenamiento": "512 GB SSD",
+      "sistema_operativo": "Keep",
+      "color": "Cool Silver",
+      "extras": "Morral y Mouse",
+      "sku": "90NB10J2-M04A90"
+    }
   }
 ]

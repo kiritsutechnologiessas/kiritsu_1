@@ -3440,3 +3440,63 @@
 - url: http://localhost:3000/product/local_dell_pro_15_essential
 - via: pushState
 
+## 2026-07-28 19:31:31.422Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Contáctanos"}
+
+## 2026-07-28 19:31:31.422Z navigate
+- url: http://localhost:3000/contactanos
+- via: pushState
+
+## 2026-07-28 19:31:32.404Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"E-commerce"}
+
+## 2026-07-28 19:31:33.417Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Ver todo el catálogo"}
+
+## 2026-07-28 19:31:33.418Z navigate
+- url: http://localhost:3000/tienda
+- via: pushState
+
+## 2026-07-28 19:31:41.319Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"E-commerce"}
+
+## 2026-07-28 19:31:42.581Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Portátil"}
+
+## 2026-07-28 19:31:42.581Z navigate
+- url: http://localhost:3000/tienda/portatiles
+- via: pushState
+
+## 2026-07-28 19:32:05.410Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:32:07.213Z click
+- element: {"tag":"button","role":"checkbox","ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-07-28 19:32:21.800Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Nuevo$2,353,172.00Portátil ASUS Vivobook 15 X1504VA-BQ4555 Intel i5, 12 GB, 512 GBPortátil de alto rendimiento con pantalla de 15.6 pulgadas Agregar al carrito"}
+
+## 2026-07-28 19:32:21.801Z navigate
+- url: http://localhost:3000/product/local_asus_vivobook_15_x1504va_bq4555
+- via: pushState
+
+## 2026-07-28 19:32:34.429Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"E-commerce"}
+
+## 2026-07-28 19:32:36.213Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Ver todo el catálogo"}
+
+## 2026-07-28 19:32:36.213Z navigate
+- url: http://localhost:3000/tienda
+- via: pushState
+
+## 2026-07-28 19:32:48.531Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"E-commerce"}
+
+## 2026-07-28 19:32:54.195Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Portátil"}
+
+## 2026-07-28 19:32:54.195Z navigate
+- url: http://localhost:3000/tienda/portatiles
+- via: pushState
+
