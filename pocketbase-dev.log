@@ -1,0 +1,5 @@
+
+> pocketbase-app@0.0.0 dev
+> pocketbase.exe serve --http=0.0.0.0:8090 --hooksWatch=false
+
+Error: listen tcp 0.0.0.0:8090: bind: Solo se permite un uso de cada dirección de socket (protocolo/dirección de red/puerto)
