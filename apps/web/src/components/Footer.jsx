@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Cpu, Mail, MapPin, Phone } from 'lucide-react';
+import { Cpu, Mail, MapPin, Phone, MessageCircle } from 'lucide-react';
 
 const Footer = () => (
   <footer className="border-t border-white/10 bg-[hsl(240_30%_5%)]">
@@ -32,7 +32,7 @@ const Footer = () => (
         <ul className="space-y-3 text-sm text-muted-foreground">
           <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-primary" /> Cartagena, Colombia</li>
           <li className="flex items-center gap-2"><Mail className="w-4 h-4 text-primary" /> <a href="mailto:kiritsu@kiritsutechnologies.com" className="hover:text-white">kiritsu@kiritsutechnologies.com</a></li>
-          <li className="flex items-center gap-2"><Phone className="w-4 h-4 text-primary" /> <a href="tel:+573017614184" className="hover:text-white">+57 3017614184</a></li>
+          <li className="flex items-center gap-2"><Phone className="w-4 h-4 text-primary" /> <a href="https://wa.me/573017614184?text=Hola,%20quiero%20cotizar%20un%20producto" target="_blank" rel="noopener noreferrer" className="hover:text-white flex items-center gap-1">+57 3017614184 <MessageCircle className="w-5 h-5 text-green-500" /></a></li>
         </ul>
       </div>
     </div>

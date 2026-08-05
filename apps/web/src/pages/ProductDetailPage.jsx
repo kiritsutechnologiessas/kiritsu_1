@@ -162,11 +162,11 @@ function ProductDetailPage() {
         </Link>
         <div className="grid md:grid-cols-2 gap-8 glass-card p-8 rounded-2xl">
           <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }} className="relative">
-            <div className="relative overflow-hidden rounded-lg shadow-2xl h-96 md:h-[500px]">
+            <div className={`relative overflow-hidden rounded-lg shadow-2xl ${product.id === 'local_microsoft_365_e3' ? 'h-96 md:h-[500px] flex items-center justify-center' : 'h-96 md:h-[500px]'}`}>
               <img
                 src={!currentImage?.url ? placeholderImage : currentImage.url}
                 alt={product.title}
-                className="w-full h-full object-cover"
+                className={`object-cover transition-transform duration-300 ${product.id === 'local_microsoft_365_e3' ? 'h-64 w-3/4' : 'w-full h-full'}`}
               />
 
               {hasMultipleImages && (

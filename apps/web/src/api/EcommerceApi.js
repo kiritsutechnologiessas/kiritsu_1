@@ -4,6 +4,15 @@ const ECOMMERCE_STORE_ID = "store_01KY7ND8W758WVKXMT7QHFJ67Y";
 // Import local products
 import localProductsData from '../data/localProducts.json';
 
+// Custom Colombian Peso formatter
+export const formatCOP = (priceInCents) => {
+  if (priceInCents === null || priceInCents === undefined) {
+    return "";
+  }
+  const amount = priceInCents / 100;
+  return `COP $${amount.toLocaleString('es-CO', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}`;
+};
+
 export const formatCurrency = (priceInCents, currencyInfo) => {
   if (!currencyInfo || priceInCents === null || priceInCents === undefined) {
     return "";
@@ -49,6 +58,14 @@ const extractVariants = (variants) => {
     const sale_price_in_cents = v?.prices?.[0]?.sale_amount || null;
     const currency = v?.prices?.[0]?.currency_code || "eur";
 
+    // Use Colombian Peso formatter for COP currency
+    const formatPrice = (amount, curr) => {
+      if (curr === "COP") {
+        return formatCOP(amount);
+      }
+      return formatCurrency(amount, v?.prices?.[0]?.currency);
+    };
+
     return {
       id: v?.id || "",
       title: v?.title || "",
@@ -58,11 +75,8 @@ const extractVariants = (variants) => {
       sale_price_in_cents,
       currency,
       currency_info: v?.prices?.[0]?.currency,
-      price_formatted: formatCurrency(price_in_cents, v?.prices?.[0]?.currency),
-      sale_price_formatted: formatCurrency(
-        sale_price_in_cents,
-        v?.prices?.[0]?.currency,
-      ),
+      price_formatted: formatPrice(price_in_cents, currency),
+      sale_price_formatted: sale_price_in_cents ? formatPrice(sale_price_in_cents, currency) : null,
       manage_inventory: v?.manage_inventory || false, // track stock only if this flag is true
       weight: v?.weight || null,
       options: extractVariantOptions(v?.options),
@@ -456,7 +470,7 @@ export async function getProducts({
       related_products: extractRelatedProducts(product.related_products),
       updated_at: product.updated_at,
     };
-  });
+  }).filter(product => !product.title.includes('Microsoft 365 Business'));
 
   // Add local products
   const allProducts = [...hostingerProducts, ...localProductsData];

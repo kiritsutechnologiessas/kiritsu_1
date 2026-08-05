@@ -6,30 +6,30 @@
 body {
   font-family: "Space Grotesk", sans-serif;
   overflow-x: clip;
-  background-color: hsl(240 30% 4%);
+  background-color: hsl(0 0% 8%);
   color: hsl(0 0% 96%);
 }
 
 @layer base {
   :root {
-    --background: 240 30% 4%;
+    --background: 0 0% 8%;
     --foreground: 0 0% 96%;
-    --card: 240 26% 8%;
+    --card: 0 0% 12%;
     --card-foreground: 0 0% 96%;
-    --popover: 240 28% 7%;
+    --popover: 0 0% 10%;
     --popover-foreground: 0 0% 96%;
     --primary: 217 91% 60%;
     --primary-foreground: 0 0% 100%;
     --secondary: 265 84% 66%;
     --secondary-foreground: 0 0% 100%;
-    --muted: 240 18% 16%;
-    --muted-foreground: 240 8% 66%;
+    --muted: 0 0% 16%;
+    --muted-foreground: 0 0% 66%;
     --accent: 265 84% 66%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
-    --border: 240 20% 18%;
-    --input: 240 20% 16%;
+    --border: 0 0% 18%;
+    --input: 0 0% 16%;
     --ring: 217 91% 60%;
     --radius: 0.75rem;
   }
@@ -38,7 +38,7 @@ body {
 @layer utilities {
   .font-display { font-family: "Orbitron", sans-serif; }
   .glass-card {
-    background: linear-gradient(160deg, hsla(240 30% 12% / 0.7), hsla(240 30% 7% / 0.7));
+    background: linear-gradient(160deg, hsla(0 0% 16% / 0.7), hsla(0 0% 12% / 0.7));
     backdrop-filter: blur(14px);
     border: 1px solid hsla(217 91% 60% / 0.15);
   }
@@ -60,8 +60,8 @@ body {
 .animate-marquee { animation: marquee 24s linear infinite; }
 
 ::-webkit-scrollbar { width: 10px; }
-::-webkit-scrollbar-track { background: hsl(240 30% 6%); }
-::-webkit-scrollbar-thumb { background: hsl(240 20% 22%); border-radius: 8px; }
+::-webkit-scrollbar-track { background: hsl(0 0% 10%); }
+::-webkit-scrollbar-thumb { background: hsl(0 0% 20%); border-radius: 8px; }
 
 @media (prefers-reduced-motion: reduce) {
   .animate-marquee { animation: none; }

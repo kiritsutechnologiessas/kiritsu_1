@@ -3,14 +3,39 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ShoppingCart as ShoppingCartIcon, X } from 'lucide-react';
 import { useCart } from '@/hooks/useCart';
 import { Button } from '@/components/ui/button';
-import { initializeCheckout } from '@/api/EcommerceApi';
+import { useNavigate } from 'react-router-dom';
 import { useToast } from '@/hooks/use-toast';
+import { formatCurrency, formatCOP } from '@/api/EcommerceApi';
 
 const ShoppingCart = ({ isCartOpen, setIsCartOpen }) => {
   const { toast } = useToast();
+  const navigate = useNavigate();
   const { cartItems, removeFromCart, updateQuantity, getCartTotal, clearCart } = useCart();
 
-  const handleCheckout = useCallback(async () => {
+  // Helper function to format price based on currency
+  const formatPrice = (amountInCents, currencyInfo) => {
+    if (currencyInfo?.code === 'COP') {
+      return formatCOP(amountInCents);
+    }
+    return formatCurrency(amountInCents, currencyInfo);
+  };
+
+  // Helper function to get formatted cart total
+  const getFormattedCartTotal = () => {
+    const total = cartItems.reduce((sum, item) => {
+      const price = item.variant.sale_price_in_cents ?? item.variant.price_in_cents;
+      return sum + price * item.quantity;
+    }, 0);
+    
+    // Check if any item is in COP
+    const hasCOP = cartItems.some(item => item.variant.currency_info?.code === 'COP');
+    if (hasCOP) {
+      return formatCOP(total);
+    }
+    return formatCurrency(total, cartItems[0]?.variant.currency_info);
+  };
+
+  const handleCheckout = useCallback(() => {
     if (cartItems.length === 0) {
       toast({
         title: 'Your cart is empty',
@@ -20,27 +45,9 @@ const ShoppingCart = ({ isCartOpen, setIsCartOpen }) => {
       return;
     }
 
-    try {
-      const items = cartItems.map(item => ({
-        variant_id: item.variant.id,
-        quantity: item.quantity,
-      }));
-
-      const successUrl = `${window.location.origin}/success`;
-      const cancelUrl = window.location.href;
-
-      const { url } = await initializeCheckout({ items, successUrl, cancelUrl });
-
-      clearCart();
-      window.location.href = url;
-    } catch (error) {
-      toast({
-        title: 'Checkout Error',
-        description: 'There was a problem initializing checkout. Please try again.',
-        variant: 'destructive',
-      });
-    }
-  }, [cartItems, clearCart, toast]);
+    setIsCartOpen(false);
+    navigate('/checkout');
+  }, [cartItems, navigate, setIsCartOpen, toast]);
 
   return (
     <AnimatePresence>
@@ -80,7 +87,10 @@ const ShoppingCart = ({ isCartOpen, setIsCartOpen }) => {
                       <h3 className="font-semibold text-card-foreground">{item.product.title}</h3>
                       <p className="text-sm text-muted-foreground">{item.variant.title}</p>
                       <p className="text-sm text-primary font-bold">
-                        {item.variant.sale_price_formatted}
+                        {formatPrice(
+                          item.variant.sale_price_in_cents ?? item.variant.price_in_cents,
+                          item.variant.currency_info
+                        )}
                       </p>
                     </div>
                     <div className="flex flex-col items-end gap-2">
@@ -99,7 +109,7 @@ const ShoppingCart = ({ isCartOpen, setIsCartOpen }) => {
               <div className="p-6 border-t border-border">
                 <div className="flex justify-between items-center mb-4 text-card-foreground">
                   <span className="text-lg font-medium">Total</span>
-                  <span className="text-2xl font-bold">{getCartTotal()}</span>
+                  <span className="text-2xl font-bold">{getFormattedCartTotal()}</span>
                 </div>
                 <Button onClick={handleCheckout} className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold py-3 text-base">
                   Proceed to Checkout

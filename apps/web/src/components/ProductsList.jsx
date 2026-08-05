@@ -56,7 +56,7 @@ const ProductCard = ({ product, index }) => {
             <img
               src={product.image ||placeholderImage}
               alt={product.title}
-              className="w-full h-64 object-cover transition-transform duration-300"
+              className={`object-cover transition-transform duration-300 ${product.id === 'local_microsoft_365_e3' ? 'h-64 w-1/2 mx-auto' : 'w-full h-64'}`}
             />
             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-all duration-300" />
             {product.ribbon_text && (
@@ -73,7 +73,9 @@ const ProductCard = ({ product, index }) => {
           </div>
           <div className="p-4">
             <h3 className="text-lg font-bold truncate">{product.title}</h3>
-            <p className="text-sm text-gray-300 h-10 overflow-hidden">{product.subtitle || 'Check out this amazing product!'}</p>
+            {product.subtitle && (
+              <p className="text-sm text-gray-300 h-10 overflow-hidden">{product.subtitle}</p>
+            )}
             <Button onClick={handleAddToCart} className="w-full mt-4 bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white font-semibold">
               <ShoppingCart className="mr-2 h-4 w-4" /> Add to Cart
             </Button>

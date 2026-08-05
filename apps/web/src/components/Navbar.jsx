@@ -24,6 +24,12 @@ const categories = [
       { label: 'Portátil', path: '/tienda/portatiles' },
       { label: 'Accesorios Pc', path: '/categoria/accesorios-pc' },
       { label: 'Mouse y Teclados', path: '/categoria/mouse-teclados' },
+      { label: 'Servidores', path: '/categoria/servidores' }
+    ]
+  },
+  {
+    label: 'Software',
+    subcategories: [
       { label: 'Software', path: '/categoria/software' }
     ]
   }

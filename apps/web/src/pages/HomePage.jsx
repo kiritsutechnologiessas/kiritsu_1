@@ -17,7 +17,7 @@ const values = [
 ];
 
 const lines = [
-  { icon: Code2, title: 'Desarrollo de Software' },
+  { icon: Code2, title: 'Diseño y Desarrollo de Software' },
   { icon: Cloud, title: 'Consultoría y Servicios TI' },
   { icon: Lock, title: 'Ciberseguridad Avanzada' },
   { icon: Server, title: 'Comercialización de Tecnología' },

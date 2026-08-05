@@ -77,7 +77,7 @@ import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
 
-const initialForm = { name: '', email: '', subject: '', message: '' };
+const initialForm = { name: '', phone: '', email: '', subject: '', message: '' };
 
 const ContactPage = () => {
   const [form, setForm] = useState(initialForm);
@@ -103,6 +103,7 @@ const ContactPage = () => {
         body: JSON.stringify({
           access_key: 'ed0a3636-babe-4a53-8adb-1d72d5cea619',
           name: form.name,
+          phone: form.phone,
           email: form.email,
           subject: form.subject,
           message: form.message,
@@ -184,6 +185,19 @@ const ContactPage = () => {
                 onChange={updateField}
                 className="border-white/15 bg-white/5"
                 placeholder="Escribe tu nombre"
+              />
+            </div>
+            <div className="grid gap-2">
+              <Label htmlFor="contact-phone">Teléfono</Label>
+              <Input
+                id="contact-phone"
+                name="phone"
+                type="tel"
+                maxLength={20}
+                value={form.phone}
+                onChange={updateField}
+                className="border-white/15 bg-white/5"
+                placeholder="Escribe tu teléfono"
               />
             </div>
             <div className="grid gap-2">
